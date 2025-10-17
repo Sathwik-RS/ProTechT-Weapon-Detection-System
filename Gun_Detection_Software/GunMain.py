@@ -8,7 +8,7 @@ import os
 
 # ==== EMAIL SETUP ====
 sender_email = "rssathwik5@gmail.com"        # 🔁 your Gmail here
-app_password = "cyei dpbc kxfq pbea"           # 🔁 your app password here
+app_password = ""           # 🔁 your app password here
 subject = "🚨 Gun Detection Alert"
 
 admin_email = input("Enter admin email to notify: ").strip()
@@ -107,3 +107,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
